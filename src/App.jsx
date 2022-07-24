@@ -9,6 +9,7 @@ function App() {
         <Card
             key={item.key}
             img={item.coverImg}
+            title={item.title}
             view={item.view}
             description={item.description}
             date={item.date}

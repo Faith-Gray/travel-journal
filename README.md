@@ -1,0 +1,1 @@
+This is a small project practising props in React. I've not yet learned data bases so I put the data for the individual props in a seprate tab to practice getting the information from a database. I will add minimal CSS to the project. 

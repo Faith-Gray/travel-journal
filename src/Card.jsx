@@ -2,16 +2,25 @@ export default function Card(props) {
 
     return (
         <div className="card">
-            {badgeText && <div className="card--badge">{badgeText}</div>}
-            <img src={`../images/${props.img}`} className="card--image" />
-            <div className="card--stats">
-                <img src="../images/star.png" className="card--star" />
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount}) • </span>
-                <span className="gray">{props.location}</span>
-            </div>
-            <p className="card--title">{props.title}</p>
-            <p className="card--price"><span className="bold">From ${props.price}</span> / person</p>
+            <p>{props.title}</p>
+            <p>{props.view}</p>
+            <p>{props.date}</p>
+            <p>{props.description}</p>
+
         </div>
     )
 }
+
+// id: 1,
+// title: "Minneapolis, MN",
+// view: "View on Google Maps",
+// description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis et ullam rem quo voluptatem ut, ipsum necessitatibus dolore esse ea corporis aliquid culpa quod. Doloremque, dolore! Nesciunt voluptatum tempore tenetur reiciendis repellendus!",
+// date: "January 20th, 2022",
+// // coverImg: "minneapolis.png",
+
+// key={item.key}
+// img={item.coverImg}
+// title={item.title}
+// view={item.view}
+// description={item.description}
+// date={item.date}
