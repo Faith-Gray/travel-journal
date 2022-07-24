@@ -1,0 +1,24 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+  
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #66bfbf;
+    width: auto;
+    height: 55px;
+}
+
+.nav--header {
+    color: white;
+    display: inline;
+}
+
+.nav--logo{
+    padding-right: 8px;
+}
